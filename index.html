@@ -1,24 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Very Organized Grocery List</title>
-
-    <link rel=”stylesheet” href=”style.css”>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .header-line {
+            font-family: 'Courier New', Courier, monospace;
+            color: brown;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
-<body>
-    <h1>My Very Organized Grocery List</h1>
-    <section>
-        <h2>Pantry Items</h2>
-        <h3>Canned</h3>
-        <h3>Dry Goods</h3>
-    </section>
 
-    <section>
-        <h2>Freezer Items</h2>
-        <h3>Veggies</h3>
-        <h3>Snacks</h3>
-    </section>
+<body>
+    <header>
+        <div class="header-line">
+            <h1>My Very Organized Grocery List</h1>
+        </div>
+        <p><time>
+                <div style=" color:blue; font-family:'Courier New', Courier, monospace;"">last updated: April
+            29th, 2024</div></time></p>
+    </header>
+
+    <main>
+        <div>
+            <section class=" testClass">
+                    <h2>Pantry Items</h2>
+                    </section>
+                    <section class="h3">
+                        <h3>Canned</h3>
+                        <ul>
+                            <li>Pineapple chunks</li>
+                            <li>Chickpeas</li>
+                            <li>Artichoke hearts</li>
+                            <li>Navy beans</li>
+                        </ul>
+                        <h3>Dry Goods</h3>
+                        <ul>
+                            <li>Fettuccine</li>
+                            <li>Brown rice</li>
+                            <li>Jasmine rice</li>
+                            <li>Couscous</li>
+                        </ul>
+                    </section>
+                    <img class="image-container"
+                        src="https://images.themodernproper.com/billowy-turkey/production/posts/2019/Pantry-Essentials-Canned-Goods-everyone-should-have-on-hand-2.jpg?w=600&q=82&auto=format&fit=crop&dm=1599769183&s=fd5e1a18afaf674eba312d2b0bb9d9f7"
+                        alt="Image of canned goods">
+                </div>
+
+                <div>
+                    <section class=" testClass">
+                        <h2>Freezer Items</h2>
+                    </section>
+                    <section class="h3">
+                        <h3>Veggies</h3>
+                        <ol>
+                            <li>Corn</li>
+                            <li>Broccoli</li>
+                            <li>Spinach</li>
+                        </ol>
+                        <h3>Snacks</h3>
+                        <ol>
+                            <li>Chicken nuggets</li>
+                            <li>Corn dogs</li>
+                            <li>Garlic bread</li>
+                        </ol>
+                    </section>
+                    <img class="image-container"
+                        src="https://www.laurafuentes.com/wp-content/uploads/2021/09/roasted-frozen-veggies-post_1-1024x661.jpg"
+                        alt="Image of frozen vegetables">
+                </div>
+                </main>
+                <footer>
+                    <p>Thank you for checking out my grocery list!</p>
+                </footer>
 </body>
+
 </html>

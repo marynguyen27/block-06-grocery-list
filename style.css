@@ -1,2 +1,27 @@
 .testClass {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: bisque;
+  border: salmon;
+  display: block;
+}
+
+.section-headerClass {
+  background-color: aliceblue;
+  border: solid;
+  display: inline-block;
+}
+
+.h3 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: aquamarine;
+  display: block;
+  padding: 20px;
+  border: 5px solid #000;
+  margin: 10px;
+}
+
+.image-container {
+  padding: 20px;
+  width: 500px;
+  height: auto;
 }
